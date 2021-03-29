@@ -1,0 +1,108 @@
+/* login */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem 0 2rem 0;
+    background-color: #efe9e7;
+    color: #3d1101;
+}
+
+.login h1 {
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    border-top: solid 3px #ff5e45;
+    background: #efe9e7;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+}
+
+.login-form h2 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.login-form-input {
+    padding: 0.5rem 0;
+}
+
+.login-form-input p {
+    margin-bottom: 0.25rem;
+}
+
+.login-form-input input {
+    width: 270px;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    color: #4a4a4a;
+    text-indent: 22px;
+}
+
+.login-form-input .email,
+.login-form-input .password {
+    position: relative;
+    display: inline-block;
+}
+
+.login-form-input .email:before,
+.login-form-input .password:before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(61,17,0,0.50);
+}
+
+.login-form-input .email:before {
+    left: 12px;
+    font-size: 14px;
+    content: "\f0e0";
+}
+
+.login-form-input .password:before {
+    left: 10px;
+    font-size: 13px;
+    content: "\f070";
+}
+
+.login-form-input .forget-password {
+    font-size: 14px;
+    color: #ff5e45;
+    margin-top: 0.25rem;
+    cursor: pointer;
+}
+
+.login-form-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.login-form-buttons button {
+    width: 48%;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-form-buttons .signin {
+    background-color: #f56c23;
+}
+
+.login-form-buttons .signup {
+    background: rgba(0, 0, 0, 0.35);
+}
