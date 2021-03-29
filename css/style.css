@@ -127,6 +127,10 @@
     margin-bottom: 1rem;
 }
 
+.chef-introduction p {
+    font-size: 16px;
+}
+
 @media (max-width: 830px) {
     .chef .container {
         flex-direction: column;
@@ -157,7 +161,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3.5rem 0;
+    padding: 3.5rem 1rem;
 }
 
 .feedback h1 {
@@ -173,7 +177,7 @@
 .feedback-item {
     display: flex;
     width: 32%;
-    padding: 1rem 1rem;
+    padding: 1rem 0;
 }
 
 .feedback-item img {
@@ -193,7 +197,12 @@
     padding: 1.7rem 0;
 }
 
+.feedback-item-content {
+    font-size: 16px;
+}
+
 .feedback-item-sign {
+    font-size: 16px;
     color: #3D1101;
     opacity: 0.75;
     text-align: right;
@@ -277,7 +286,7 @@
     vertical-align: middle;
 }
 
-.booking-info-form-item input:not(input[type="radio"]) {
+.w100 {
     width: 100%;
 }
 
@@ -304,6 +313,10 @@
 }
 
 @media (max-width: 650px) {
+    .booking .container {
+        padding: 3rem 1rem;
+    }
+
     .booking-info {
         flex-direction: column;
     }

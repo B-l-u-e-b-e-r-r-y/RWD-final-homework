@@ -33,6 +33,7 @@
 }
 
 .order-sidebar-list li {
+    font-size: 16px;
     border-bottom: solid 1px #3d1101;
 }
 
@@ -94,6 +95,10 @@
 .order-cart {
     display: flex;
     align-items: center;
+}
+
+.order-cart p {
+    font-size: 16px;
 }
 
 .order-cart i {
