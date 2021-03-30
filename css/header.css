@@ -22,7 +22,7 @@
 }
 
 .showmenu {
-    display: none;
+    display: none !important;
 }
 
 .menu {
