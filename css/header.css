@@ -52,7 +52,7 @@
     }
 
     .showmenu {
-        display: block;
+        display: block !important;
         font-size: 24px;
         color: white;
         cursor: pointer;
